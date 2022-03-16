@@ -2,7 +2,8 @@
 
 We use [GATGNN](https://github.com/superlouis/GATGNN)
 
-1. Unzip data.  If your folder structure is different, you may need to change the corresponding paths in files.
+1. `unzip data.zip`
+2. If your folder structure is different, you may need to change the corresponding paths in files.
 ```
 IDAO2022
 ├── TRAINED
@@ -18,6 +19,6 @@ IDAO2022
 │       │   └── ...
 │       └── targets.csv
 ```
-2. `python train.py`
-3. `python predict.py`
-4. profit!
+3. `python train.py`
+4. `python predict.py`
+5. profit!
